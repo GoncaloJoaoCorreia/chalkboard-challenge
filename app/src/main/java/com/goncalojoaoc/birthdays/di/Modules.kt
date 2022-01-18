@@ -1,6 +1,6 @@
 package com.goncalojoaoc.birthdays.di
 
-import com.goncalojoaoc.birthdays.BirthdaysViewModel
+import com.goncalojoaoc.birthdays.ui.BirthdaysViewModel
 import com.goncalojoaoc.birthdays.data.BirthdaysDtoToModelMapper
 import com.goncalojoaoc.birthdays.data.BirthdaysRepository
 import com.goncalojoaoc.birthdays.data.BirthdaysRepositoryImpl

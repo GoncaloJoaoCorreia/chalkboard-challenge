@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/avatar_big_size"
+        android:layout_height="@dimen/avatar_big_size"
+        android:layout_marginTop="@dimen/margin_standard"
+        android:background="@drawable/birthday_avatar_bg"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/initials_big_text_size"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="JK" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_standard"
+        android:textColor="@color/black"
+        android:textSize="@dimen/large_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/avatar"
+        tools:text="James Kenny" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_standard_small"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/name"
+        tools:text="26 years old" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_standard"
+        android:layout_marginTop="@dimen/margin_standard"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="@string/go_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="@dimen/margin_standard_small"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/age" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

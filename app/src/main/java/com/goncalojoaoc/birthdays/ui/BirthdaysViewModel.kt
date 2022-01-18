@@ -1,4 +1,4 @@
-package com.goncalojoaoc.birthdays
+package com.goncalojoaoc.birthdays.ui
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
